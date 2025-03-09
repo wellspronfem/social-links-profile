@@ -133,11 +133,15 @@ ul {
 .footer {
   padding: 2rem;
 }
-.footer .attribution {
+.footer__attribution {
   font-size: 11px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
-.footer .attribution a {
+.footer__attribution__info a {
   color: hsl(228, 45%, 44%);
 }
 
